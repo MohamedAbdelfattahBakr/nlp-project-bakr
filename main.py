@@ -42,7 +42,7 @@ class AntonymsIn(BaseModel):
 class TextToSpeech(BaseModel):
     text : str
     language : Optional[str] = 'en'
-app = FastAPI(title='Tageit',
+app = FastAPI(title='NLP Project Bakr',
               description='This is a hobby project for people interesed in using NLP',
               openapi_tags=tags_metadata)
 
