@@ -43,7 +43,7 @@ class TextToSpeech(BaseModel):
     text : str
     language : Optional[str] = 'en'
 app = FastAPI(title='Tageit',
-              description='This is a hobby project for people interesed in using NLP. Email tomibami2020@gmail.com for new functionality you want to be added.',
+              description='This is a hobby project for people interesed in using NLP',
               openapi_tags=tags_metadata)
 
 @app.get('/')
